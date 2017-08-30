@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DEV-DESK-05</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqJZRxhAdaEqCL+juyRJfjQAAAAACAAAAAAADZgAAwAAAABAAAAA1HPZ5+ej05NMogI8rYi/9AAAAAASAAACgAAAAEAAAAPHxdmloDrTEW+7Fj0W/F+GIAAAAlpWJz3jISK8F0sXA2UUCYYxET50HrMWAzUaVP3y4RWRGiVZslCvcRIxh/glyg3cED1okat7F8lE7hhYXUoVd+F+nfO2lTqTYxXgtYDvbBjNT2X1W6gFQibAE2nwnaZRdsrR9NaWK6MEBnzXcT1Pl47dN2V75/ji9ln8gylmWyblYGGMkoCtZzxQAAAAKdrL452Ni/BZiR/If7iCerYeEBA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqJZRxhAdaEqCL+juyRJfjQAAAAACAAAAAAADZgAAwAAAABAAAAAC1/fh7Ua3EjHdl8UMNNENAAAAAASAAACgAAAAEAAAAPVlSQi6sHZjSR15ACS6WSaIAAAAmutbxzRAOsnOmb2fpA3A7bNGhE+Teyrhib4fUsvAmlLDbMKRvCIVv58ObzKyocRMCLfKIvjfgJKixdOqkP7yrQZY2dXc9/BPM8+BA9BA8VJwRUrO9VqB/LvihAc+Ngnllhp7LKE3kgameHWPPXtw+PP/qeEnSoClWCsWgyOJPxTh9Zf9wpRSWRQAAACMkbcN7H0rKCp0i/x9YXNPw9PmNw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,17 +42,17 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">41</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">43</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{BD17270E-0770-405B-8D07-6094CB7433E2}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{0169724C-9724-4AF8-943D-173AC1E23B47}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.DEV-DESK-05.AdventureWorks.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Azure.AdventureWorks.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -63,11 +63,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=DEV-DESK-05;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=sg-sql-001.database.windows.net;User ID=sg;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DEV-DESK-05.AdventureWorks.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.Azure.AdventureWorks.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -82,7 +82,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DEV-DESK-05.AdventureWorks.Password">
+                <SSIS:Parameter SSIS:Name="CM.Azure.AdventureWorks.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -96,7 +96,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DEV-DESK-05.AdventureWorks.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.Azure.AdventureWorks.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -111,7 +111,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DEV-DESK-05.AdventureWorks.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.Azure.AdventureWorks.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -122,11 +122,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">DEV-DESK-05</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">sg-sql-001.database.windows.net</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DEV-DESK-05.AdventureWorks.UserName">
+                <SSIS:Parameter SSIS:Name="CM.Azure.AdventureWorks.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -137,6 +137,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">sg</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

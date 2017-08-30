@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AdventureWorkProject", "AdventureWorkProject\AdventureWorkProject.dtproj", "{F505391C-AFFD-4EDE-84CA-8A2EE11E3CD0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB658EE6-D57A-4999-B15C-1BA1D952ACB3}"
+	ProjectSection(SolutionItems) = preProject
+		..\sampleAW.xlsx = ..\sampleAW.xlsx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
